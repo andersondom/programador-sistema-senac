@@ -1,272 +1,417 @@
+<div align="center">
+
 # 💻 Programador de Sistemas — SENAC/SE
 
-Repositório educacional utilizado como material de apoio nas aulas do curso **Programador de Sistemas**, reunindo exercícios resolvidos e exemplos práticos desenvolvidos durante o processo de aprendizagem.
+### C# • .NET • ASP.NET Core MVC • SQLite
 
-O objetivo deste repositório é permitir que os alunos consultem soluções apresentadas em aula, revisem conceitos de programação e acompanhem exemplos de implementação utilizando principalmente **C# e a plataforma .NET**.
+Repositório educacional com **exercícios resolvidos e projetos práticos** desenvolvidos durante as aulas do curso **Programador de Sistemas**.
+
+Da introdução à linguagem C# até a construção de aplicações Console e Web com persistência de dados.
+
+</div>
+
+---
+
+## 🚀 Uma trilha prática de desenvolvimento
+
+Este repositório acompanha uma progressão de aprendizagem, reunindo exemplos e projetos que demonstram a evolução dos principais conceitos trabalhados em aula:
+
+**Fundamentos → Lógica → C# → POO → CRUD → SQLite → ASP.NET Core MVC**
+
+Os projetos foram organizados para permitir que o aluno acompanhe essa evolução de forma prática, consultando códigos desenvolvidos durante as aulas e experimentando novas implementações.
 
 ---
 
 ## 📂 Estrutura do Repositório
 
-Atualmente, o repositório está organizado da seguinte forma:
-
 ```text
 programador-sistema-senac/
 │
 ├── ExerciciosResolvidos/
+│   │
 │   ├── ExemploSe/
-│   ├── ListaClasses/
+│   │   ├── ExemploSe.csproj
+│   │   └── Program.cs
+│   │
 │   ├── RespostaLista01/
+│   │   ├── RespostaLista01.csproj
+│   │   └── Program.cs
+│   │
 │   ├── RespostaLista02/
+│   │   ├── RespostaLista02.csproj
+│   │   └── Program.cs
+│   │
+│   ├── ListaClasses/
+│   │   ├── ControleBanco.csproj
+│   │   └── Program.cs
+│   │
 │   ├── SistemaControleMateriais/
+│   │   ├── BancoDados.cs
+│   │   ├── Materiais.cs
+│   │   ├── Program.cs
+│   │   ├── Sistemas.cs
+│   │   ├── SistemaControleMateriais.csproj
+│   │   └── README.md
+│   │
 │   └── SistemaControleMateriaisWeb/
+│       ├── Controllers/
+│       ├── Data/
+│       ├── Models/
+│       ├── Views/
+│       ├── Program.cs
+│       ├── SistemaControleMateriaisWeb.csproj
+│       └── README.md
 │
 ├── .gitignore
-│
 └── README.md
 ```
-
-### 📁 `ExerciciosResolvidos`
-
-Esta é a principal pasta do repositório.
-
-Nela são disponibilizados os **exercícios, exemplos e projetos desenvolvidos e resolvidos durante as aulas**, organizados de acordo com os conteúdos trabalhados ao longo do curso.
-
-Os códigos podem ser utilizados pelos alunos para:
-
-- revisar conteúdos apresentados em sala;
-- comparar diferentes formas de resolver um problema;
-- compreender melhor a estrutura de aplicações em C#;
-- praticar lógica de programação;
-- consultar exemplos apresentados durante as aulas;
-- acompanhar a evolução dos conteúdos do curso.
-
-> 💡 **Recomendação:** antes de consultar uma solução, tente desenvolver o exercício por conta própria. A prática, a tentativa e até mesmo os erros fazem parte do processo de aprendizagem.
 
 ---
 
 # 📚 Exercícios e Projetos Disponíveis
 
-Os exemplos disponíveis em `ExerciciosResolvidos` acompanham a evolução dos conteúdos trabalhados durante o curso, partindo dos fundamentos da linguagem C# e avançando gradualmente para Programação Orientada a Objetos, persistência de dados e desenvolvimento Web.
+## 1️⃣ ExemploSe
 
-## 01 — 🔀 ExemploSe
+Projeto introdutório utilizado para trabalhar **estruturas condicionais** em C#.
 
-Projeto introdutório dedicado ao estudo das **estruturas condicionais em C#**.
+### Conceitos abordados
 
-Neste exemplo são trabalhados conceitos como:
-
-- `if`, `else` e `else if`;
+- `if`;
+- `else`;
+- `else if`;
 - operadores de comparação;
 - tomada de decisão;
-- identificação de números pares e ímpares;
-- análise de valores positivos, negativos e zero.
+- verificação de números pares e ímpares;
+- identificação de valores positivos, negativos ou zero.
 
-📁 [`Acessar ExemploSe`](./ExerciciosResolvidos/ExemploSe)
+Este projeto introduz um dos conceitos fundamentais da lógica de programação: **fazer o programa tomar decisões de acordo com determinadas condições**.
+
+📁 [`ExemploSe`](./ExerciciosResolvidos/ExemploSe)
 
 ---
 
-## 02 — 📝 RespostaLista01
+## 2️⃣ RespostaLista01
 
-Primeira lista de exercícios resolvidos, voltada aos **fundamentos da linguagem C#** e à interação com o usuário através do Console.
+Lista de exercícios introdutórios voltada aos primeiros contatos com a linguagem **C#**.
 
-Entre os conceitos trabalhados estão:
+### Conceitos abordados
 
 - declaração de variáveis;
 - tipos de dados;
-- entrada de dados com `Console.ReadLine()`;
-- saída de dados com `Console.WriteLine()`;
+- `string`;
+- `int`;
+- `decimal`;
+- `char`;
+- entrada de dados pelo Console;
+- saída de informações;
 - conversão de valores;
 - interpolação de strings;
-- operações básicas com informações fornecidas pelo usuário.
+- operações básicas.
 
-📁 [`Acessar RespostaLista01`](./ExerciciosResolvidos/RespostaLista01)
+O projeto ajuda a consolidar os fundamentos necessários para a construção dos primeiros programas em C#.
+
+📁 [`RespostaLista01`](./ExerciciosResolvidos/RespostaLista01)
 
 ---
 
-## 03 — 🧮 RespostaLista02
+## 3️⃣ RespostaLista02
 
-Segunda lista de exercícios resolvidos, avançando no uso de **operadores e cálculos em C#**.
+Exercícios voltados à utilização de **operadores e cálculos matemáticos**.
 
-Os exercícios trabalham conceitos como:
+### Conceitos abordados
 
-- operadores aritméticos;
 - soma;
 - subtração;
 - multiplicação;
-- cálculo de médias;
-- cálculo de dobro e metade;
-- porcentagens e descontos;
-- armazenamento e processamento de valores numéricos.
+- média;
+- dobro;
+- metade;
+- porcentagens;
+- descontos;
+- manipulação de valores numéricos.
 
-📁 [`Acessar RespostaLista02`](./ExerciciosResolvidos/RespostaLista02)
+Esta etapa amplia o uso de variáveis e operadores na resolução de pequenos problemas computacionais.
+
+📁 [`RespostaLista02`](./ExerciciosResolvidos/RespostaLista02)
 
 ---
 
-## 04 — 🏦 ListaClasses
+## 4️⃣ ListaClasses
 
-Exemplo voltado à introdução da **Programação Orientada a Objetos (POO)** através da implementação de uma conta bancária.
+Projeto utilizado para introduzir conceitos de **Programação Orientada a Objetos — POO**.
 
-O projeto aborda:
+A aplicação utiliza como exemplo uma conta bancária para demonstrar a criação e utilização de objetos.
 
-- criação de classes;
+### Conceitos abordados
+
+- classes;
 - propriedades;
 - métodos;
-- criação e utilização de objetos;
-- encapsulamento de comportamentos;
-- estruturas condicionais;
-- estrutura `switch`;
-- repetição com `do/while`;
-- operações de depósito e saque;
-- validação de saldo.
+- criação de objetos;
+- alteração do estado de objetos;
+- depósito;
+- saque;
+- consulta de saldo;
+- validações;
+- `switch`;
+- `do/while`.
 
-Este exemplo demonstra como os conceitos básicos da linguagem começam a ser organizados dentro de **classes e objetos**.
+Este projeto representa a transição entre programas escritos apenas de forma sequencial e aplicações organizadas através de **classes e objetos**.
 
-📁 [`Acessar ListaClasses`](./ExerciciosResolvidos/ListaClasses)
+📁 [`ListaClasses`](./ExerciciosResolvidos/ListaClasses)
 
 ---
 
-## 05 — 📦 SistemaControleMateriais
+# 📦 5️⃣ Sistema de Controle de Materiais — Console
 
-Aplicação Console desenvolvida para demonstrar a construção de um sistema mais completo utilizando **C# e .NET**.
+O `SistemaControleMateriais` representa uma evolução importante dentro da trilha de aprendizagem.
 
-O projeto evolui os conceitos estudados anteriormente e trabalha:
+Neste projeto, diversos conceitos estudados anteriormente passam a trabalhar juntos em uma aplicação mais estruturada.
 
-- organização do código em múltiplas classes;
+### Tecnologias
+
+- C#;
+- .NET;
+- SQLite.
+
+### Conceitos abordados
+
 - Programação Orientada a Objetos;
-- utilização de `List<T>`;
-- menus interativos;
+- múltiplas classes;
+- métodos;
 - estruturas condicionais;
 - estruturas de repetição;
-- cadastro de materiais;
+- `List<T>`;
+- menus interativos;
+- validação de dados;
 - pesquisa de registros;
-- alteração de dados;
-- exclusão de registros;
-- listagem de materiais;
-- validação de informações;
-- persistência de dados com SQLite.
+- cadastro;
+- alteração;
+- exclusão;
+- listagem;
+- operações CRUD;
+- persistência de dados;
+- SQLite.
 
-O projeto permite visualizar como diferentes conceitos estudados separadamente podem ser integrados para formar uma aplicação funcional.
+### CRUD
 
-Ele representa a transição dos exercícios isolados para a construção de uma **aplicação estruturada com operações de CRUD e persistência de dados**.
+```text
+CREATE  → Cadastrar
+READ    → Consultar / Listar
+UPDATE  → Alterar
+DELETE  → Excluir
+```
 
-📁 [`Acessar SistemaControleMateriais`](./ExerciciosResolvidos/SistemaControleMateriais)
+O projeto permite compreender como diferentes recursos da linguagem podem ser integrados para formar uma aplicação funcional.
+
+### 📖 Documentação completa
+
+➡️ [`SistemaControleMateriais`](./ExerciciosResolvidos/SistemaControleMateriais)
+
+➡️ [`README do projeto`](./ExerciciosResolvidos/SistemaControleMateriais/README.md)
 
 ---
 
-## 06 — 🌐 SistemaControleMateriaisWeb
+# 🌐 6️⃣ Sistema de Controle de Materiais — Web
 
-Evolução do **Sistema de Controle de Materiais** para uma aplicação Web utilizando **ASP.NET Core MVC**.
+O `SistemaControleMateriaisWeb` representa a evolução da aplicação Console para uma aplicação Web utilizando **ASP.NET Core MVC**.
 
-O projeto demonstra como conceitos utilizados anteriormente em uma aplicação Console podem ser transportados para uma arquitetura Web.
+```text
+SistemaControleMateriais
+        │
+        ▼
+Aplicação Console
+C# + .NET + SQLite
+        │
+        │ Evolução
+        ▼
+SistemaControleMateriaisWeb
+        │
+        ▼
+ASP.NET Core MVC
+C# + Razor + SQLite
+        │
+        ▼
+Aplicação Web
+```
 
-Entre os principais conceitos trabalhados estão:
+### Tecnologias
 
+- C#;
+- .NET;
 - ASP.NET Core;
+- ASP.NET Core MVC;
+- Razor;
+- SQLite;
+- HTML;
+- CSS.
+
+### Conceitos abordados
+
+- desenvolvimento Web;
 - arquitetura MVC;
-- Controllers;
 - Models;
-- Views com Razor;
-- rotas e Actions;
-- injeção de dependência;
+- Views;
+- Controllers;
+- Razor Views;
+- rotas;
+- Actions;
+- formulários;
 - Data Annotations;
-- validação de dados;
+- validação;
+- injeção de dependência;
 - operações CRUD;
-- persistência com SQLite;
-- separação de responsabilidades;
-- interface Web para gerenciamento dos materiais.
+- persistência de dados;
+- SQLite;
+- separação de responsabilidades.
 
-A existência das versões Console e Web permite acompanhar a evolução de uma mesma ideia desde uma aplicação executada no terminal até um **sistema Web estruturado em ASP.NET Core MVC**.
+### Estrutura MVC
 
-📁 [`Acessar SistemaControleMateriaisWeb`](./ExerciciosResolvidos/SistemaControleMateriaisWeb)
+```text
+┌───────────────────┐
+│       VIEW        │
+│ Interface Web     │
+│ Razor / HTML      │
+└─────────┬─────────┘
+          │
+          ▼
+┌───────────────────┐
+│    CONTROLLER     │
+│ Requisições e     │
+│ fluxo da aplicação│
+└─────────┬─────────┘
+          │
+          ▼
+┌───────────────────┐
+│       MODEL       │
+│ Dados e regras    │
+└─────────┬─────────┘
+          │
+          ▼
+┌───────────────────┐
+│      SQLite       │
+│ Persistência      │
+└───────────────────┘
+```
+
+### 📖 Documentação completa
+
+➡️ [`SistemaControleMateriaisWeb`](./ExerciciosResolvidos/SistemaControleMateriaisWeb)
+
+➡️ [`README do projeto`](./ExerciciosResolvidos/SistemaControleMateriaisWeb/README.md)
 
 ---
 
 # 🗺️ Trilha de Aprendizagem
 
-A organização dos exercícios e projetos permite visualizar a progressão dos conhecimentos trabalhados durante o curso:
+Os projetos deste repositório podem ser observados como etapas de uma mesma evolução:
 
 ```text
-┌─────────────────────────────┐
-│      Fundamentos de C#      │
-└──────────────┬──────────────┘
-               │
-               ▼
-┌─────────────────────────────┐
-│ Variáveis e Tipos de Dados  │
-└──────────────┬──────────────┘
-               │
-               ▼
-┌─────────────────────────────┐
-│   Operadores e Cálculos     │
-└──────────────┬──────────────┘
-               │
-               ▼
-┌─────────────────────────────┐
-│ Estruturas Condicionais     │
-└──────────────┬──────────────┘
-               │
-               ▼
-┌─────────────────────────────┐
-│ Programação Orientada       │
-│       a Objetos             │
-└──────────────┬──────────────┘
-               │
-               ▼
-┌─────────────────────────────┐
-│ Aplicações Console          │
-│     Estruturadas            │
-└──────────────┬──────────────┘
-               │
-               ▼
-┌─────────────────────────────┐
-│ CRUD + Persistência         │
-│       SQLite                │
-└──────────────┬──────────────┘
-               │
-               ▼
-┌─────────────────────────────┐
-│    ASP.NET Core MVC         │
-└──────────────┬──────────────┘
-               │
-               ▼
-┌─────────────────────────────┐
-│      Aplicação Web          │
-└─────────────────────────────┘
+Fundamentos de Programação
+           │
+           ▼
+    Variáveis e Tipos
+           │
+           ▼
+ Operadores e Cálculos
+           │
+           ▼
+Estruturas Condicionais
+           │
+           ▼
+Programação Orientada
+      a Objetos
+           │
+           ▼
+       Coleções
+           │
+           ▼
+  Aplicações Console
+           │
+           ▼
+          CRUD
+           │
+           ▼
+        SQLite
+           │
+           ▼
+SistemaControleMateriais
+           │
+           ▼
+     ASP.NET Core
+           │
+           ▼
+          MVC
+           │
+           ▼
+SistemaControleMateriaisWeb
 ```
 
-> 💡 Os projetos não representam apenas soluções prontas. Eles registram a evolução dos conteúdos trabalhados durante as aulas e podem ser utilizados como material de consulta, revisão e experimentação.
+Essa sequência demonstra como conteúdos inicialmente simples podem ser combinados progressivamente até a construção de aplicações mais completas.
 
 ---
 
 # 🧠 Conteúdos Trabalhados
 
-À medida que o curso avança, os exercícios e projetos abordam diferentes conceitos relacionados ao desenvolvimento de sistemas, entre eles:
+Ao longo dos exercícios e projetos são explorados conteúdos como:
 
-- fundamentos de programação;
-- variáveis e tipos de dados;
+### Fundamentos
+
+- lógica de programação;
+- algoritmos;
+- variáveis;
+- tipos de dados;
 - operadores;
-- estruturas condicionais;
-- estruturas de repetição;
-- métodos;
-- coleções;
-- Programação Orientada a Objetos;
-- classes e objetos;
-- manipulação de dados;
-- operações CRUD;
-- persistência de dados;
-- banco de dados;
-- SQLite;
-- desenvolvimento de aplicações Console;
-- desenvolvimento Web;
-- ASP.NET Core MVC.
+- entrada e saída de dados;
+- conversões;
+- interpolação de strings.
 
-O conteúdo do repositório será ampliado progressivamente conforme novos assuntos forem trabalhados durante as aulas.
+### Estruturas de Controle
+
+- condicionais;
+- `if`;
+- `else`;
+- `else if`;
+- `switch`;
+- estruturas de repetição;
+- `while`;
+- `do/while`.
+
+### Programação Orientada a Objetos
+
+- classes;
+- objetos;
+- propriedades;
+- métodos;
+- organização de responsabilidades.
+
+### Coleções e Dados
+
+- `List<T>`;
+- manipulação de registros;
+- validações;
+- operações CRUD;
+- persistência;
+- SQLite.
+
+### Desenvolvimento Web
+
+- ASP.NET Core;
+- MVC;
+- Controllers;
+- Models;
+- Views;
+- Razor;
+- rotas;
+- formulários;
+- Data Annotations;
+- injeção de dependência.
 
 ---
 
 # 🛠️ Tecnologias e Ferramentas
 
-Os exercícios e projetos deste repositório utilizam principalmente:
+<div align="center">
 
 ![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white)
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
@@ -276,59 +421,144 @@ Os exercícios e projetos deste repositório utilizam principalmente:
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 
-O **GitHub Codespaces** também pode ser utilizado pelos alunos para executar os projetos diretamente em um ambiente de desenvolvimento online.
+</div>
+
+### Ambiente de desenvolvimento
+
+Os projetos podem ser utilizados com:
+
+- Visual Studio Code;
+- Git;
+- GitHub;
+- GitHub Codespaces;
+- .NET SDK.
+
+O **GitHub Codespaces** permite executar os projetos diretamente em um ambiente de desenvolvimento disponibilizado pelo navegador.
 
 ---
 
 # 🚀 Como utilizar este repositório
 
-Os alunos podem explorar os códigos diretamente pelo GitHub ou utilizar o **GitHub Codespaces** para executar e modificar os exemplos.
+Clone o repositório:
 
-Uma forma recomendada de estudo é:
+```bash
+git clone https://github.com/andersondom/programador-sistema-senac.git
+```
 
-1. leia e compreenda o problema proposto;
-2. tente desenvolver sua própria solução;
-3. execute e teste o código;
-4. identifique possíveis erros;
-5. consulte a solução disponibilizada;
-6. compare sua implementação com a solução apresentada;
-7. modifique o código;
-8. experimente novas possibilidades.
+Entre na pasta:
 
-> **Programação se aprende principalmente programando.**
+```bash
+cd programador-sistema-senac
+```
 
-O objetivo não é simplesmente copiar uma solução, mas compreender **por que ela funciona** e descobrir outras maneiras de resolver o mesmo problema.
+Acesse o diretório dos exercícios:
+
+```bash
+cd ExerciciosResolvidos
+```
+
+Escolha um dos projetos.
+
+Por exemplo:
+
+```bash
+cd SistemaControleMateriais
+```
+
+Restaure as dependências:
+
+```bash
+dotnet restore
+```
+
+Compile:
+
+```bash
+dotnet build
+```
+
+Execute:
+
+```bash
+dotnet run
+```
 
 ---
 
 # 🎯 Objetivo Educacional
 
-Este repositório foi criado com finalidade **educacional**, servindo como material complementar às aulas e como referência para os alunos durante seus estudos.
+Este repositório foi organizado para funcionar como **material de apoio às aulas e ambiente de consulta para os alunos**.
 
-Mais do que apresentar códigos prontos, a proposta é utilizar cada exercício como oportunidade para desenvolver:
+A proposta não é apenas disponibilizar códigos prontos.
 
-**Lógica • Autonomia • Organização • Boas Práticas • Resolução de Problemas**
+O objetivo é permitir que os exemplos sejam utilizados para:
 
-A evolução dos exemplos procura acompanhar o desenvolvimento das competências dos alunos, começando por problemas simples e avançando gradualmente para aplicações mais estruturadas.
+- revisar conteúdos trabalhados em aula;
+- compreender a estrutura das aplicações;
+- analisar soluções;
+- modificar códigos existentes;
+- experimentar novas implementações;
+- criar novas funcionalidades;
+- acompanhar a evolução entre diferentes tipos de aplicações.
+
+> 💡 **A melhor forma de aprender programação é praticando.**
+>
+> Leia o código, execute, modifique, provoque erros, corrija e experimente novas soluções.
+
+---
+
+# 📈 Evolução dos Projetos
+
+Uma das propostas deste repositório é demonstrar que o desenvolvimento de software acontece de forma progressiva.
+
+```text
+Pequenos exercícios
+        ↓
+Resolução de problemas
+        ↓
+Estruturas de decisão
+        ↓
+Classes e objetos
+        ↓
+Aplicações estruturadas
+        ↓
+Persistência de dados
+        ↓
+CRUD
+        ↓
+Aplicações Web
+```
+
+Cada novo projeto utiliza conhecimentos desenvolvidos nas etapas anteriores.
 
 ---
 
 # 👨‍🏫 Sobre o Repositório
 
-Material organizado por **Anderson Domingos**, Instrutor de Educação Profissional, como apoio às atividades desenvolvidas nas disciplinas de tecnologia do **SENAC/SE**.
+Este material é utilizado como apoio às atividades educacionais do curso **Programador de Sistemas**.
 
-O repositório também funciona como registro da evolução dos conteúdos trabalhados durante as aulas, permitindo que novos exemplos e projetos sejam incorporados conforme o desenvolvimento das turmas.
+Os códigos representam exemplos, exercícios resolvidos e projetos utilizados para demonstrar conceitos de desenvolvimento de software de forma progressiva e prática.
+
+---
+
+# 👨‍💻 Autor
+
+**Anderson Domingos**  
+Instrutor de Educação Profissional  
+**SENAC/SE**
+
+[![GitHub](https://img.shields.io/badge/GitHub-andersondom-181717?style=for-the-badge&logo=github)](https://github.com/andersondom)
 
 ---
 
 <div align="center">
 
-## 💙 Educação • Tecnologia • Desenvolvimento
+### 💻 C# • .NET • ASP.NET Core MVC • SQLite
 
-**Aprender • Praticar • Desenvolver • Compartilhar**
+**Aprender • Praticar • Desenvolver • Evoluir**
 
 <br>
 
-Feito com dedicação à educação e ao desenvolvimento de novos profissionais de tecnologia.
+⭐ Se este material foi útil para seus estudos, considere deixar uma estrela no repositório.
 
 </div>
