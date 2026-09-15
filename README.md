@@ -1,121 +1,117 @@
-# 🚀 Programador de Sistemas - SENAC/SE
+# 💻 Programador de Sistemas — SENAC/SE
 
-Bem-vindo à primeira aula do curso **Programador de Sistemas – SENAC Sergipe**.
+Repositório educacional utilizado como material de apoio nas aulas do curso **Programador de Sistemas**, reunindo exercícios resolvidos e exemplos práticos desenvolvidos durante o processo de aprendizagem.
 
-Nesta aula iniciaremos nossa jornada no desenvolvimento de aplicações utilizando **C#** e **.NET**. Ao longo do curso, construiremos conhecimentos de forma prática, desenvolvendo aplicações cada vez mais completas até chegar à integração com bancos de dados e ao desenvolvimento de sistemas reais.
-
-> **Programar é aprender resolvendo problemas.**
-> Quanto mais você praticar, maior será sua evolução.
+O objetivo deste repositório é permitir que os alunos consultem soluções apresentadas em aula, revisem conceitos de programação e acompanhem exemplos de implementação utilizando principalmente **C# e a plataforma .NET**.
 
 ---
 
-## 🎯 Objetivos da Aula
+## 📂 Estrutura do Repositório
 
-Ao concluir esta aula, você será capaz de:
-
-* Criar e executar uma aplicação Console em .NET.
-* Compreender a estrutura básica de um projeto C#.
-* Utilizar o terminal integrado do Visual Studio Code.
-* Ler e modificar código-fonte.
-* Executar aplicações utilizando a CLI do .NET.
-
----
-
-## 📂 Estrutura da Aula
+Atualmente, o repositório está organizado da seguinte forma:
 
 ```text
-Aula1
+programador-sistema-senac/
 │
-Exercicios
+├── ExerciciosResolvidos/
 │
-ExerciciosResolvidos
+├── .gitignore
 │
-Desafios
+└── README.md
 ```
 
-### 📁 Aula1
+### 📁 `ExerciciosResolvidos`
 
-Contém um projeto de exemplo.
+Esta é a principal pasta do repositório.
 
----
+Nela serão disponibilizados os **exercícios, exemplos e atividades resolvidas durante as aulas**, organizados de acordo com os conteúdos trabalhados ao longo do curso.
 
-### 📝 Exercicios
+Os códigos disponibilizados poderão ser utilizados pelos alunos para:
 
-Aqui estão as atividades propostas para fixação do conteúdo.
+- revisar conteúdos apresentados em sala;
+- comparar diferentes formas de resolver um problema;
+- compreender melhor a estrutura de aplicações em C#;
+- praticar lógica de programação;
+- consultar exemplos apresentados durante as aulas;
+- acompanhar a evolução dos conteúdos do curso.
 
-A recomendação é que você resolva todos os exercícios antes de consultar qualquer solução.
-
----
-
-### ✅ ExerciciosResolvidos
-
-Após concluir os exercícios, compare suas respostas com as soluções disponibilizadas.
-
-Observe não apenas se o resultado está correto, mas também como o código foi organizado e escrito.
+> 💡 **Recomendação:** antes de consultar uma solução, tente desenvolver o exercício por conta própria. A prática e a tentativa fazem parte do processo de aprendizagem.
 
 ---
 
-### 🏆 Desafios
+## 🧠 Conteúdos
 
-Os desafios têm como objetivo incentivar sua autonomia e desenvolver sua capacidade de resolver problemas.
+À medida que o curso avançar, os exercícios resolvidos poderão abordar diferentes conceitos relacionados ao desenvolvimento de sistemas, como:
 
-Alguns deles poderão exigir pesquisa, experimentação e criatividade.
+- fundamentos de programação;
+- variáveis e tipos de dados;
+- operadores;
+- estruturas condicionais;
+- estruturas de repetição;
+- métodos;
+- coleções;
+- programação orientada a objetos;
+- manipulação de dados;
+- banco de dados;
+- desenvolvimento de aplicações com .NET;
+- desenvolvimento Web com ASP.NET Core.
 
-Não se preocupe caso não consiga resolver todos de imediato. Persistência faz parte da formação de qualquer desenvolvedor.
-
----
-
-## 💡 Dicas para aproveitar melhor o curso
-
-* Leia atentamente os exemplos apresentados.
-* Digite o código em vez de apenas copiá-lo.
-* Faça alterações e observe os resultados.
-* Experimente diferentes soluções.
-* Organize seu código desde o início.
-* Faça perguntas sempre que surgir uma dúvida.
-
-Cada linha de código escrita representa uma oportunidade de aprendizado.
+O conteúdo do repositório será ampliado progressivamente conforme novos assuntos forem trabalhados durante as aulas.
 
 ---
 
-## 📚 Bons hábitos de programação
+## 🛠️ Tecnologias
 
-Durante todo o curso procure desenvolver estes hábitos:
+Os exemplos e exercícios deste repositório utilizarão principalmente:
 
-* ✔ Escreva código limpo e organizado.
-* ✔ Utilize nomes claros para variáveis e métodos.
-* ✔ Salve seu trabalho com frequência.
-* ✔ Faça commits regularmente no GitHub.
-* ✔ Teste suas aplicações antes de considerá-las concluídas.
-* ✔ Nunca tenha medo de refatorar seu código.
+- **C#**
+- **.NET**
+- **Visual Studio Code**
+- **Git**
+- **GitHub**
+- **GitHub Codespaces**
+
+Outras tecnologias poderão ser incorporadas conforme a evolução das atividades.
 
 ---
 
-## 🚀 Próximos passos
+## 🎯 Objetivo
 
-Esta é apenas a primeira etapa da nossa jornada.
+Este repositório foi criado com finalidade **educacional**, servindo como material complementar às aulas e como referência para os alunos durante seus estudos.
 
-Nas próximas aulas evoluiremos para temas como:
+Mais do que apresentar códigos prontos, a proposta é utilizar cada exercício como oportunidade para desenvolver:
 
-* Variáveis e tipos de dados;
-* Estruturas de decisão;
-* Estruturas de repetição;
-* Métodos;
-* Programação Orientada a Objetos;
-* Desenvolvimento Web com ASP.NET Core;
-* Integração com bancos de dados;
-* Testes automatizados.
+**lógica • autonomia • organização • boas práticas • resolução de problemas**
 
-Cada novo conteúdo será construído sobre os conhecimentos adquiridos nesta aula.
+---
+
+## 🚀 Como utilizar este repositório
+
+Os alunos podem explorar os códigos diretamente pelo GitHub ou utilizar o **GitHub Codespaces** para executar e modificar os exemplos em um ambiente de desenvolvimento online.
+
+A recomendação é:
+
+1. compreender o problema proposto;
+2. tentar desenvolver sua própria solução;
+3. executar e testar o código;
+4. consultar a solução disponibilizada;
+5. comparar as abordagens;
+6. modificar o código e experimentar novas possibilidades.
+
+Programação se aprende principalmente **programando**.
+
+---
+
+## 👨‍🏫 Sobre o Repositório
+
+Material organizado por **Anderson Domingos**, Instrutor de Educação Profissional, como apoio às atividades desenvolvidas nas disciplinas de tecnologia do **SENAC/SE**.
 
 ---
 
 <div align="center">
 
-### 💙 SENAC Sergipe
+### 💙 Educação • Tecnologia • Desenvolvimento
 
-**Educação profissional que transforma conhecimento em oportunidades.**
-
-**Bom estudo e bons códigos! 🚀**
+**Aprender. Praticar. Desenvolver. Compartilhar.**
 
 </div>
